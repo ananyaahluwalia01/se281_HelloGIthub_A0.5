@@ -46,8 +46,11 @@ public class Basics {
      * @return the largest of the two parameters 
      */
     public static int max(int num1, int num2) {
-        //TODO implement
-        return -1;
+        if (num1 >= num2) {
+          return num1;
+        } else {
+          return num2;
+        }
     }
 
     /**
