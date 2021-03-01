@@ -30,9 +30,13 @@ public class Basics {
      * @return the smallest of the two parameters 
      */
     public static int min(int num1, int num2) {
-        //TODO implement
-        return -1;
+        if (num1 <= num2) {
+          return num1;
+        } else {
+          return num2;
+        }
     }
+
 
     /**
      * maximum operation
