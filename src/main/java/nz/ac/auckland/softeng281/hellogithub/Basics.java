@@ -1,9 +1,5 @@
 package nz.ac.auckland.softeng281.hellogithub;
-
-import java.nio.IntBuffer;
-
-import com.sun.org.apache.xml.internal.utils.res.IntArrayWrapper;
-
+import java.lang.Math;
 public class Basics {
 
     /**
@@ -64,8 +60,7 @@ public class Basics {
      * @return the number rounded to the nearest whole number
      */
     public static int round(double number) {
-        int result = (int)number;
-        return result;
+        return (int)Math.round(number);
     }
 
 }
