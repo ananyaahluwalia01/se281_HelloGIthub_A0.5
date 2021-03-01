@@ -10,7 +10,8 @@ public class Basics {
      */
     public static int triple(int number) {
         //TODO implement
-        return -1;
+        int result = number * 3;
+        return result;
     }
 
     /**
