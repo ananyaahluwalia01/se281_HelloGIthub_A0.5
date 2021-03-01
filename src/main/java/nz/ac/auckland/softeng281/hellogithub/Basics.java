@@ -9,9 +9,7 @@ public class Basics {
      * @return the number 3 times the parameter
      */
     public static int triple(int number) {
-        //TODO implement
-        int result = number * 3;
-        return result;
+        return number * 3;
     }
 
     /**
@@ -21,8 +19,7 @@ public class Basics {
      * @return the number as a positive only 
      */
     public static double absolute(double number) {
-        //TODO implement
-        return -1;
+        return Math.abs(number);
     }
 
     /**
